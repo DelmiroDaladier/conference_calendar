@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "content/conference_1/index.html",
+    "href": "content/conference_1/index.html",
+    "title": "A new approach for a proof that P is NP",
+    "section": "",
+    "text": "In this paper we propose a new approach for developing a proof that P=NP. Wepropose to use a polynomial-time reduction of a NP-complete problem to LinearProgramming. Earlier such attempts used polynomial-time transformation which isa special form of reduction that uses a subroutine for the easier LinearProgramming Problem only once. We use multiple calls to the subroutineincreasing considerably the effectiveness of the reduction. Further theNP-complete problem we choose is also unusual. We define a special kind ofacyclic directed graph which we call a time graph. We define Hamiltonian timepaths in such graphs and also the Hamiltonian Time Path problem (HTPATH) andprove that it is NP-complete. We then state a conjecture whose proof willimmediately lead to a polynomial-time algorithm for this problem proving P=NP."
+  },
+  {
+    "objectID": "content/conference_1/index.html#paper-authors",
+    "href": "content/conference_1/index.html#paper-authors",
+    "title": "A new approach for a proof that P is NP",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nDutta, Malay\nMahanta, Anjana K."
+  },
+  {
+    "objectID": "content/conference_1/index.html#more-resources",
+    "href": "content/conference_1/index.html#more-resources",
+    "title": "A new approach for a proof that P is NP",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Conference clendar",
+    "section": "",
+    "text": "ACL 2022 | 60th Annual Meeting of the Association for Computational Linguistics | Ireland   Start date:2022-05-22  End date:2022-05-27  Link\n\n\n\n Home| Artificial Intelligence and Statistics Conference   Start date:2023-04-25  End date:2023-04-27  Link"
+  }
+]

@@ -1,0 +1,30 @@
+---
+comments: false
+page-layout: full
+title: Conference clendar
+title-block-banner: true
+
+---
+<hr>
+
+<p style="text-align: center;"> 
+<strong> ACL 2022 |  60th Annual Meeting of the Association for Computational Linguistics | Ireland </strong>
+<br>
+Start date:2022-05-22
+<br>
+End date:2022-05-27
+<br>
+<a href=2022-05-27>Link</a>
+<hr>
+</p> 
+
+<p style="text-align: center;"> 
+<strong> Home| Artificial Intelligence and Statistics Conference </strong>
+<br>
+Start date:2023-04-25
+<br>
+End date:2023-04-27
+<br>
+<a href=2023-04-27>Link</a>
+<hr>
+</p> 

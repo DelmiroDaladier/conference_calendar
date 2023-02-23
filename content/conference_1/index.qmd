@@ -1,0 +1,36 @@
+---
+description: testing
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Dutta, Malay
+  author_2:
+    name: Mahanta, Anjana K.
+  overview: In this paper we propose a new approach for developing a proof that P=NP.
+    Wepropose to use a polynomial-time reduction of a NP-complete problem to LinearProgramming.
+    Earlier such attempts used polynomial-time transformation which isa special form
+    of reduction that uses a subroutine for the easier LinearProgramming Problem only
+    once. We use multiple calls to the subroutineincreasing considerably the effectiveness
+    of the reduction. Further theNP-complete problem we choose is also unusual. We
+    define a special kind ofacyclic directed graph which we call a time graph. We
+    define Hamiltonian timepaths in such graphs and also the Hamiltonian Time Path
+    problem (HTPATH) andprove that it is NP-complete. We then state a conjecture whose
+    proof willimmediately lead to a polynomial-time algorithm for this problem proving
+    P=NP.
+  pdf_url: http://arxiv.org/pdf/2302.09024
+title: A new approach for a proof that P is NP
+
+---
+## Tldr 
+In this paper we propose a new approach for developing a proof that P=NP. Wepropose to use a polynomial-time reduction of a NP-complete problem to LinearProgramming. Earlier such attempts used polynomial-time transformation which isa special form of reduction that uses a subroutine for the easier LinearProgramming Problem only once. We use multiple calls to the subroutineincreasing considerably the effectiveness of the reduction. Further theNP-complete problem we choose is also unusual. We define a special kind ofacyclic directed graph which we call a time graph. We define Hamiltonian timepaths in such graphs and also the Hamiltonian Time Path problem (HTPATH) andprove that it is NP-complete. We then state a conjecture whose proof willimmediately lead to a polynomial-time algorithm for this problem proving P=NP.
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
