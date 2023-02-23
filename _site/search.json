@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Conference clendar",
+    "section": "",
+    "text": "ACL 2022 | 60th Annual Meeting of the Association for Computational Linguistics | Ireland   Start date:2022-05-22  End date:2022-05-27  Link\n\n\n\n Home| Artificial Intelligence and Statistics Conference   Start date:2023-04-25  End date:2023-04-27  Link"
+  },
+  {
     "objectID": "content/conference_1/index.html",
     "href": "content/conference_1/index.html",
     "title": "A new approach for a proof that P is NP",
@@ -26,12 +33,5 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Conference clendar",
-    "section": "",
-    "text": "ACL 2022 | 60th Annual Meeting of the Association for Computational Linguistics | Ireland   Start date:2022-05-22  End date:2022-05-27  Link\n\n\n\n Home| Artificial Intelligence and Statistics Conference   Start date:2023-04-25  End date:2023-04-27  Link"
   }
 ]
