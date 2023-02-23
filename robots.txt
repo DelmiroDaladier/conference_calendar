@@ -1,1 +1,1 @@
-Sitemap: https://DelmiroDaladier.github.io/conference_calendar/sitemap.xml
+Sitemap: https://github.com/DelmiroDaladier/conference_calendar/sitemap.xml
