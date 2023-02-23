@@ -6,7 +6,6 @@ title-block-banner: true
 
 ---
 <hr>
-
 <p style="text-align: center;"> 
 <strong> ACL 2022 |  60th Annual Meeting of the Association for Computational Linguistics | Ireland </strong>
 <br>
