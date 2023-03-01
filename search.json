@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Conference clendar",
+    "title": ".",
     "section": "",
-    "text": "ACL 2022 | 60th Annual Meeting of the Association for Computational Linguistics | Ireland   Start date:2022-05-22  End date:2022-05-27  Link\n\n\n\n The 2022 Conference on Empirical Methods in Natural Language Processing - emnlp 2022   Start date:2022-12-07  End date:2022-12-11  Link\n\n\n\n Home| Artificial Intelligence and Statistics Conference   Start date:2023-04-25  End date:2023-04-27  Link"
+    "text": ",conference_id,name,link,location,start_date,end_date 0,30,ACL 2022 | 60th Annual Meeting of the Association for Computational Linguistics | Ireland,https://www.2022.aclweb.org/,Ireland,2022-05-22,2022-05-27"
   },
   {
     "objectID": "content/conference_1/index.html",
