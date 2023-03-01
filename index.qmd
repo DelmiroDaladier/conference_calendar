@@ -1,41 +1,50 @@
 ---
 comments: false
 page-layout: full
-title: Conference clendar
+title: Conference Calendar
 title-block-banner: true
+code-fold: true
+execute:
+  echo: false
 
 ---
-<hr>
 
-<p style="text-align: center;"> 
-<strong> ACL 2022 |  60th Annual Meeting of the Association for Computational Linguistics | Ireland </strong>
-<br>
-Start date:2022-05-22
-<br>
-End date:2022-05-27
-<br>
-<a href=2022-05-27>Link</a>
-<hr>
-</p> 
+```{ojs}
+data = FileAttachment("input.csv").csv({ typed: true })
+```
 
-<p style="text-align: center;"> 
-<strong> The 2022 Conference on Empirical Methods in Natural Language Processing - emnlp 2022 </strong>
-<br>
-Start date:2022-12-07
-<br>
-End date:2022-12-11
-<br>
-<a href=2022-12-11>Link</a>
-<hr>
-</p> 
+```{ojs}
+Inputs.table(data.map(d => ({Name: [[d.link,d.name]], ...d})), {
+  sort: "start",
+  reverse: true,
+  columns:[
+    "Name",
+    "location",
+    "start_date",
+    "end_date"
+  ],  
+  format: {
+    Name: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[0]} target=_blank>${link[1]}</a> `)}`
+  },
+  layout: "auto",
+  header: {
+    Name: "Conference Name",
+    location: "Location",
+    start_date: "Start Date",
+    end_date: "End Date"
+  },
+  width: {
+    Name: 300,
+    location: 300,
+    start: 300,
+    end: 300
+  },
+  align: {
+    Name: "center",
+    location: "center",
+    start: "center",
+    end: "center"
+  }
+})
 
-<p style="text-align: center;"> 
-<strong> Home| Artificial Intelligence and Statistics Conference </strong>
-<br>
-Start date:2023-04-25
-<br>
-End date:2023-04-27
-<br>
-<a href=2023-04-27>Link</a>
-<hr>
-</p> 
+```
