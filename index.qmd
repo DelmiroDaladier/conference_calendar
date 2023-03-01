@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 comments: false
 page-layout: full
