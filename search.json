@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Conference Calendar",
+    "title": "",
     "section": "",
-    "text": "Code\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(data.map(d => ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"Name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[0]} target=_blank>${link[1]}</a> `)}`\n  },\n  layout: \"auto\",\n  header: {\n    Name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start: 300,\n    end: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start: \"center\",\n    end: \"center\"\n  }\n})"
+    "text": ",conference_id,name,link,location,start_date,end_date 0,30,ACL 2022 | 60th Annual Meeting of the Association for Computational Linguistics | Ireland,https://www.2022.aclweb.org/,Ireland,2022-05-22,2022-05-27 1,31,The 2022 Conference on Empirical Methods in Natural Language Processing - emnlp 2022,https://2022.emnlp.org/,Abu Dhabi,2022-12-07,2022-12-11 2,32,Home| Artificial Intelligence and Statistics Conference,http://aistats.org/aistats2023/,Spain,2023-04-25,2023-04-27"
   },
   {
     "objectID": "content/conference_1/index.html",
