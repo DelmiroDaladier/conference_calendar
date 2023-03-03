@@ -1,4 +1,50 @@
-,conference_id,name,link,location,start_date,end_date
-0,30,ACL 2022 |  60th Annual Meeting of the Association for Computational Linguistics | Ireland,https://www.2022.aclweb.org/,Ireland,2022-05-22,2022-05-27
-1,31,The 2022 Conference on Empirical Methods in Natural Language Processing - emnlp 2022,https://2022.emnlp.org/,Abu Dhabi,2022-12-07,2022-12-11
-2,32,Home| Artificial Intelligence and Statistics Conference,http://aistats.org/aistats2023/,Spain,2023-04-25,2023-04-27
+---
+comments: false
+page-layout: full
+title: Conference Calendar
+title-block-banner: true
+code-fold: true
+execute:
+  echo: false
+
+---
+
+```{ojs}
+data = FileAttachment("input.csv").csv({ typed: true })
+```
+
+```{ojs}
+Inputs.table(data.map(d => ({Name: [[d.link,d.name]], ...d})), {
+  sort: "start",
+  reverse: true,
+  columns:[
+    "Name",
+    "location",
+    "start_date",
+    "end_date"
+  ],  
+  format: {
+    Name: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[0]} target=_blank>${link[1]}</a> `)}`
+  },
+  layout: "auto",
+  header: {
+    Name: "Conference Name",
+    location: "Location",
+    start: "Start Date",
+    end: "End Date"
+  },
+  width: {
+    Name: 300,
+    location: 300,
+    start_date: 300,
+    end_date: 300
+  },
+  align: {
+    Name: "center",
+    location: "center",
+    start: "center",
+    end: "center"
+  }
+})
+
+```
