@@ -11,10 +11,15 @@ execute:
 
 ```{ojs}
 data = FileAttachment("input.csv").csv({ typed: true })
+today = new Date()
+
+newData = data.filter(function (item) {
+  item.start_date > today
+});
 ```
 
 ```{ojs}
-Inputs.table(data.map(d => ({Name: [[d.link,d.name]], ...d})), {
+Inputs.table(newData.map(d => ({Name: [[d.link,d.name]], ...d})), {
   sort: "start",
   reverse: true,
   columns:[
@@ -30,8 +35,8 @@ Inputs.table(data.map(d => ({Name: [[d.link,d.name]], ...d})), {
   header: {
     Name: "Conference Name",
     location: "Location",
-    start: "Start Date",
-    end: "End Date"
+    start_date: "Start Date",
+    end_date: "End Date"
   },
   width: {
     Name: 300,
@@ -42,8 +47,8 @@ Inputs.table(data.map(d => ({Name: [[d.link,d.name]], ...d})), {
   align: {
     Name: "center",
     location: "center",
-    start: "center",
-    end: "center"
+    start_date: "center",
+    end_date: "center"
   }
 })
 
