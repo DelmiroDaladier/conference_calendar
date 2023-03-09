@@ -14,7 +14,7 @@ data = FileAttachment("input.csv").csv({ typed: true })
 today = new Date()
 
 newData = data.filter(function (item) {
-  item.start_date > today
+  return item.start_date > today
 });
 ```
 
