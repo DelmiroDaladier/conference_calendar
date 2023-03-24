@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/DelmiroDaladier/conference_calendar/content/conference_1/index.html</loc>
+    <lastmod>2023-03-24T11:43:45.692Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/DelmiroDaladier/conference_calendar/about.html</loc>
-    <lastmod>2023-03-15T13:40:05.512Z</lastmod>
+    <lastmod>2023-03-24T11:43:46.320Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/conference_calendar/index.html</loc>
-    <lastmod>2023-03-15T13:40:06.588Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/conference_calendar/content/conference_1/index.html</loc>
-    <lastmod>2023-03-15T13:40:06.976Z</lastmod>
+    <lastmod>2023-03-24T11:43:46.876Z</lastmod>
   </url>
 </urlset>
