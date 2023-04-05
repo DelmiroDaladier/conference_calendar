@@ -1,2 +1,2 @@
-conference_id,name,link,location,start_date,end_date,created_at,updated_at
-2,Home| Artificial Intelligence and Statistics Conference,http://aistats.org/aistats2023/,Spain,2023-04-25,2023-04-27,2023-03-24 11:43:13.876359+00:00,2023-03-24 11:43:13.876381+00:00
+id,venue_name,venue_url,venue_ptr_id,location,start_date,end_date,created_at,updated_at
+1,,,1,Spain,2023-04-25,2023-04-27,2023-04-05 14:40:10.703144+00:00,2023-04-05 14:40:10.703158+00:00
