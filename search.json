@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Conference Calendar",
+    "section": "",
+    "text": "Code\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date > today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d => ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"Name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[0]} target=_blank>${link[1]}</a> `)}`\n  },\n  layout: \"auto\",\n  header: {\n    Name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
+  },
+  {
     "objectID": "content/conference_1/index.html",
     "href": "content/conference_1/index.html",
     "title": "A new approach for a proof that P is NP",
@@ -26,12 +33,5 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Conference Calendar",
-    "section": "",
-    "text": "Code\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date > today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d => ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"Name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[0]} target=_blank>${link[1]}</a> `)}`\n  },\n  layout: \"auto\",\n  header: {\n    Name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
   }
 ]
