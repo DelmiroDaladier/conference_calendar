@@ -4,28 +4,7 @@
     "href": "index.html",
     "title": "Conference Calendar",
     "section": "",
-    "text": "Code\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date > today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d => ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"Name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[0]} target=_blank>${link[1]}</a> `)}`\n  },\n  layout: \"auto\",\n  header: {\n    Name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
-  },
-  {
-    "objectID": "content/conference_1/index.html",
-    "href": "content/conference_1/index.html",
-    "title": "A new approach for a proof that P is NP",
-    "section": "",
-    "text": "In this paper we propose a new approach for developing a proof that P=NP. Wepropose to use a polynomial-time reduction of a NP-complete problem to LinearProgramming. Earlier such attempts used polynomial-time transformation which isa special form of reduction that uses a subroutine for the easier LinearProgramming Problem only once. We use multiple calls to the subroutineincreasing considerably the effectiveness of the reduction. Further theNP-complete problem we choose is also unusual. We define a special kind ofacyclic directed graph which we call a time graph. We define Hamiltonian timepaths in such graphs and also the Hamiltonian Time Path problem (HTPATH) andprove that it is NP-complete. We then state a conjecture whose proof willimmediately lead to a polynomial-time algorithm for this problem proving P=NP."
-  },
-  {
-    "objectID": "content/conference_1/index.html#paper-authors",
-    "href": "content/conference_1/index.html#paper-authors",
-    "title": "A new approach for a proof that P is NP",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nDutta, Malay\nMahanta, Anjana K."
-  },
-  {
-    "objectID": "content/conference_1/index.html#more-resources",
-    "href": "content/conference_1/index.html#more-resources",
-    "title": "A new approach for a proof that P is NP",
-    "section": "More Resources",
-    "text": "More Resources"
+    "text": "Code\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
   },
   {
     "objectID": "about.html",

@@ -23,7 +23,7 @@ Inputs.table(newData.map(d => ({Name: [[d.link,d.name]], ...d})), {
   sort: "start",
   reverse: true,
   columns:[
-    "Name",
+    "venue_name",
     "location",
     "start_date",
     "end_date"
@@ -33,7 +33,7 @@ Inputs.table(newData.map(d => ({Name: [[d.link,d.name]], ...d})), {
   },
   layout: "auto",
   header: {
-    Name: "Conference Name",
+    venue_name: "Conference Name",
     location: "Location",
     start_date: "Start Date",
     end_date: "End Date"
